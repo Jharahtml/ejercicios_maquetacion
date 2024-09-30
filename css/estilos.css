@@ -1,57 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Barlow-condensed;
-    src: url(/tipografias/BarlowCondensed-SemiBold.ttf)
-}    
-body{
+    src: url(../tipografias/BarlowCondensed-SemiBold.ttf)
+}
+
+body {
     font-family: sans-serif;
 }
-.ejercicio1{
+
+.ejercicio1 {
     background-color: #ba68c8;
     /*height: 100vh; vh=viewport heigth, 100% de la pantalla*/
     height: 900px;
     padding: 60px;
 }
-.ejercicio1 .card1{
+
+.ejercicio1 .card1 {
     width: 410px;
     padding: 40px;
     background-color: white;
     border-radius: 30px;
     margin: 0 auto;
 }
-.ejercicio1 .card1 img{
+
+.ejercicio1 .card1 img {
     margin-bottom: 16px;
-} 
-.ejercicio1 .card1 .datos_carga{
+}
+
+.ejercicio1 .card1 .datos_carga {
     width: 230px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 26px;
 }
-.ejercicio1 .card1 .datos_carga p:nth-child(1){
+
+.ejercicio1 .card1 .datos_carga p:nth-child(1) {
     font-size: 64px;
     font-weight: bold;
     color: #6D25B9;
 }
-.ejercicio1 .card1 .datos_carga p:nth-child(2){
+
+.ejercicio1 .card1 .datos_carga p:nth-child(2) {
     font-size: 18px;
     color: #7C767E;
 }
-.ejercicio1 .card1 .lista_archivos{
+
+.ejercicio1 .card1 .lista_archivos {
     margin-bottom: 46px;
 }
-.ejercicio1 .card1 .lista_archivos li{
+
+.ejercicio1 .card1 .lista_archivos li {
     font-size: 22px;
     text-align: center;
     display: block;
     text-decoration: none;
     margin-bottom: 5px;
 }
-.ejercicio1 .card1 a{
+
+.ejercicio1 .card1 a {
     display: block;
     margin: 0 auto;
     width: 146px;
@@ -62,39 +73,47 @@ body{
     text-decoration: none;
     background-color: #7327E4;
 }
-.ejercicio2{
+
+.ejercicio2 {
     background-color: #98A0A7;
 }
-.ejercicio2 .card2{
+
+.ejercicio2 .card2 {
     width: 607px;
     padding: 165px 70px 80px 70px;
     border-radius: 30px;
     margin: 0 auto;
     background-color: white;
 }
-.ejercicio2 .card2 .pantalla_1 li{
+
+.ejercicio2 .card2 .pantalla_1 li {
     margin-bottom: 77px;
 }
-.ejercicio2 .card2 .pantalla_1 li img{
+
+.ejercicio2 .card2 .pantalla_1 li img {
     width: 305px;
     display: block;
     margin: 0 auto;
     margin-bottom: 77px;
 }
-.ejercicio2 .card2 .pantalla_1 li .text{
+
+.ejercicio2 .card2 .pantalla_1 li .text {
     width: 467px;
     text-align: center;
 }
-.ejercicio2 .card2 .pantalla_1 li .text p:nth-child(1){
+
+.ejercicio2 .card2 .pantalla_1 li .text p:nth-child(1) {
     font-family: serif;
     font-size: 36px;
     margin-bottom: 30px;
 }
-.ejercicio2 .card2 .pantalla_1 li .text p:nth-child(2){
+
+.ejercicio2 .card2 .pantalla_1 li .text p:nth-child(2) {
     font-size: 22px;
     margin-bottom: 138px;
 }
-.ejercicio2 .card2 .pantalla_1 li a{
+
+.ejercicio2 .card2 .pantalla_1 li a {
     display: block;
     width: 352px;
     padding: 21px 96px;
@@ -105,18 +124,21 @@ body{
     text-decoration: none;
     margin: 0 auto;
 }
-.ejercicio2 .card2 ul{
+
+.ejercicio2 .card2 ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 18px;
 }
+
 /*.ejercicio2 .card2 ul.bullets li{
     margin-right: 18px;   
 }*/
-.ejercicio2 .card2 ul li button{
-    display: block; /*convertir a bloque*/
+.ejercicio2 .card2 ul li button {
+    display: block;
+    /*convertir a bloque*/
     width: 12px;
     height: 12px;
     border: none;
@@ -125,43 +147,52 @@ body{
     text-indent: -9999px;
     background-color: #e5eaed;
 }
-.ejercicio2 .card2 ul li .activo{
-    background-color: #98A0A7;   
+
+.ejercicio2 .card2 ul li .activo {
+    background-color: #98A0A7;
 }
-.ejercicio3{
-    background-color: pink; 
-} 
+
+.ejercicio3 {
+    background-color: pink;
+}
+
 .card3 {
     width: 489px;
     margin: 0 auto;
     background-color: #9C466A;
     padding: 25px 40px 30px 40px;
 }
-.card3 .contenido_main{
+
+.card3 .contenido_main {
     width: 408px;
     padding: 30px 50px;
     margin: 0 auto;
     background-color: #fff;
 }
-.card3 .contenido_main img{
+
+.card3 .contenido_main img {
     display: block;
     margin: 0 auto;
 }
-.card3 .contenido_main .text{
+
+.card3 .contenido_main .text {
     text-align: center;
     width: 308px;
     margin-top: 32px;
 }
-.card3 .contenido_main .text p:nth-child(1){
+
+.card3 .contenido_main .text p:nth-child(1) {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 5px;
 
 }
-.card3 .contenido_main .text p:nth-child(2){
+
+.card3 .contenido_main .text p:nth-child(2) {
     font-size: 18px;
 }
-.card3 a{
+
+.card3 a {
     padding-top: 11px;
     padding-bottom: 11px;
     display: block;
@@ -171,111 +202,133 @@ body{
     font-size: 22px;
     text-align: center;
 }
-.ejercicio4 .card4{
+
+.ejercicio4 .card4 {
     width: 1597px;
     margin: 0 auto;
     padding: 15px;
     background-color: #FAF7F3;
     border: 15px solid black;
 }
-.ejercicio4 .card4 .contenido{
+
+.ejercicio4 .card4 .contenido {
     width: 1537px;
 
 }
-.ejercicio4 .card4 .contenido .texto_header{
+
+.ejercicio4 .card4 .contenido .texto_header {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 294px;
 }
-.ejercicio4 .card4 .contenido .texto_header p:nth-child(2){
+
+.ejercicio4 .card4 .contenido .texto_header p:nth-child(2) {
     width: 337px;
 }
-.ejercicio4 .card4 .contenido .texto_middle{
+
+.ejercicio4 .card4 .contenido .texto_middle {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.ejercicio4 .card4 .contenido .texto_imagen{
+
+.ejercicio4 .card4 .contenido .texto_imagen {
     display: flex;
 }
-.ejercicio4 .card4 .contenido .texto_imagen img{
+
+.ejercicio4 .card4 .contenido .texto_imagen img {
     width: 540px;
 }
-.ejercicio4 .card4 .contenido .texto_imagen p{
+
+.ejercicio4 .card4 .contenido .texto_imagen p {
     font-size: 650px;
     font-family: Barlow-condensed;
     line-height: 0.7;
     letter-spacing: -55px;
 }
-.ejercicio5{
+
+.ejercicio5 {
     background-color: gray;
 }
-.card5{
+
+.card5 {
     width: 647px;
     margin: 0 auto;
     padding: 68px 40px 24px 40px;
     background-color: #fff;
 }
-.card5 .header{
+
+.card5 .header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 68px;
 }
-.card5 .header .user{
+
+.card5 .header .user {
     display: flex;
     align-items: center;
 }
-.card5 .header a{
+
+.card5 .header a {
     font-size: 28px;
     padding: 10px 21px;
     border: 2px solid black;
     text-decoration: none;
     color: black;
 }
-.card5 .header .user p{
+
+.card5 .header .user p {
     font-size: 22px;
 }
-.card5 .header .user img{
+
+.card5 .header .user img {
     border-radius: 50%;
     margin-left: 39px;
 }
-.card5 .contenido .datos{
+
+.card5 .contenido .datos {
     margin-bottom: 135px;
 }
-.card5 .contenido .datos .title{
+
+.card5 .contenido .datos .title {
     font-size: 58px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.card5 .contenido .subtitulo{
+
+.card5 .contenido .subtitulo {
     width: 281px;
     display: flex;
     justify-content: space-between;
     font-size: 22px;
     font-weight: lighter;
 }
-.card5 .contenido .content p:nth-child(1){
+
+.card5 .contenido .content p:nth-child(1) {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 30px;
 
 }
-.card5 .contenido .content ul{
+
+.card5 .contenido .content ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
     margin-bottom: 51px;
 }
-.card5 .contenido .content ul li p{
+
+.card5 .contenido .content ul li p {
     font-size: 18px;
     text-align: center;
     margin-top: 7px;
 }
-.card5 .contenido .content ul li img{
+
+.card5 .contenido .content ul li img {
     border-radius: 18px;
     font-weight: bolder;
 }
