@@ -8,9 +8,15 @@
     font-family: Barlow-condensed;
     src: url(../tipografias/BarlowCondensed-SemiBold.ttf)
 }
-
+:root {
+    --blanco: #F6F6F4;
+    --gris-claro: #DFDFE2;
+    --gris: #383538;
+    --negro: #242124;
+}
 body {
     font-family: sans-serif;
+    background-color: var(--blanco);
 }
 
 .ejercicio1 {
@@ -331,4 +337,26 @@ body {
 .card5 .contenido .content ul li img {
     border-radius: 18px;
     font-weight: bolder;
+}
+/*BOTÓN PARA VOLVER*/
+.back-button a{
+    width: 90px;
+    margin: 20px 0 20px 30px;
+    display: flex;
+    font-size: 16px;
+    padding: 5px 10px;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid var(--negro);
+    border-radius: 50px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    color: var(--negro);
+    background-color: var(--blanco);
+
+}
+.back-button a:hover{
+    color: var(--blanco);
+    background-color: var(--negro);
+
 }
